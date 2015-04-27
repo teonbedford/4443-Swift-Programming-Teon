@@ -10,43 +10,31 @@
 	<string>Program-2-Starter</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>1209B2A30B1DA1FF94CCA92428D258D39D448F96</key>
-		<string>github.com:rugbyprof/5373-Swift-Programming.git</string>
-		<key>8A62EDC508DD03AF1C714C974D19950828CC3E36</key>
-		<string>github.com:rugbyprof/4443-Swift-Programming.git</string>
+		<key>1460D8881D9E59D975DE60195E64C0C16C7E1164</key>
+		<string>https://github.com/teonbedford/4443-Swift-Programming-Teon.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Program-2-Starter/Program-2-Starter.xcodeproj</string>
+	<string>Project2/Program-2-Starter.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>1209B2A30B1DA1FF94CCA92428D258D39D448F96</key>
+		<key>1460D8881D9E59D975DE60195E64C0C16C7E1164</key>
 		<string>../../..</string>
-		<key>8A62EDC508DD03AF1C714C974D19950828CC3E36</key>
-		<string>../../../../4443-Swift-Programming</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:rugbyprof/5373-Swift-Programming.git</string>
+	<string>https://github.com/teonbedford/4443-Swift-Programming-Teon.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1209B2A30B1DA1FF94CCA92428D258D39D448F96</string>
+	<string>1460D8881D9E59D975DE60195E64C0C16C7E1164</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8A62EDC508DD03AF1C714C974D19950828CC3E36</string>
+			<string>1460D8881D9E59D975DE60195E64C0C16C7E1164</string>
 			<key>IDESourceControlWCCName</key>
-			<string>4443-Swift-Programming</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>1209B2A30B1DA1FF94CCA92428D258D39D448F96</string>
-			<key>IDESourceControlWCCName</key>
-			<string>5373-Swift-Programming</string>
+			<string>4443-Swift-Programming-Teon</string>
 		</dict>
 	</array>
 </dict>
