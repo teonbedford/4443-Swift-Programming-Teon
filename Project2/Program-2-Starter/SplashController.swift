@@ -19,9 +19,10 @@ class SplashController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let timer = NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: "timeToMoveOn", userInfo: nil, repeats: false)
         
-        for i in 0...71{
-            let imageName = "t\(i)"
-            imageList.append(UIImage(named: imageName)!)
+        for i in 0...70{
+            let imageName = "alpha-\(i)"
+            let img = UIImage(named: imageName)!
+            imageList.append(img)
         }
         
         splashImageView.animationImages = imageList
