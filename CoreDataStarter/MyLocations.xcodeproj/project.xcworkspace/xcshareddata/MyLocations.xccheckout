@@ -5,28 +5,24 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>72990C0B-F2B2-4AF6-BCFE-E18429BF16A8</string>
+	<string>BB561B51-A74C-4AD3-A548-F68D1DA6F147</string>
 	<key>IDESourceControlProjectName</key>
 	<string>MyLocations</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>119ACF4FAB6CB31AC86D740E720D538477620120</key>
-		<string>github.com:rugbyprof/msu-swift.git</string>
 		<key>1460D8881D9E59D975DE60195E64C0C16C7E1164</key>
 		<string>https://github.com/teonbedford/4443-Swift-Programming-Teon.git</string>
-		<key>8A62EDC508DD03AF1C714C974D19950828CC3E36</key>
-		<string>github.com:rugbyprof/4443-Swift-Programming.git</string>
+		<key>515DFA2C92932BD50A18D8435FFF2E0096CA70C0</key>
+		<string>https://github.com/JuliaJohn/5373-Swift-Programming-JJohn.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MyLocations/MyLocations.xcodeproj</string>
+	<string>CoreDataStarter/MyLocations.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>119ACF4FAB6CB31AC86D740E720D538477620120</key>
-		<string>../../../../msu-swift</string>
 		<key>1460D8881D9E59D975DE60195E64C0C16C7E1164</key>
 		<string>../../..</string>
-		<key>8A62EDC508DD03AF1C714C974D19950828CC3E36</key>
-		<string>../../../../4443-Swift-Programming</string>
+		<key>515DFA2C92932BD50A18D8435FFF2E0096CA70C0</key>
+		<string>../../../../5373-Swift-Programming-JJohn</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/teonbedford/4443-Swift-Programming-Teon.git</string>
@@ -40,14 +36,6 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8A62EDC508DD03AF1C714C974D19950828CC3E36</string>
-			<key>IDESourceControlWCCName</key>
-			<string>4443-Swift-Programming</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>1460D8881D9E59D975DE60195E64C0C16C7E1164</string>
 			<key>IDESourceControlWCCName</key>
 			<string>4443-Swift-Programming-Teon</string>
@@ -56,9 +44,9 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>119ACF4FAB6CB31AC86D740E720D538477620120</string>
+			<string>515DFA2C92932BD50A18D8435FFF2E0096CA70C0</string>
 			<key>IDESourceControlWCCName</key>
-			<string>msu-swift</string>
+			<string>5373-Swift-Programming-JJohn</string>
 		</dict>
 	</array>
 </dict>
