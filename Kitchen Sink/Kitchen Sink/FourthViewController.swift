@@ -16,6 +16,8 @@ class FourthViewController: UIViewController {
     var screenHeight:CGFloat
     var boxWidth:CGFloat
     var boxHeight: CGFloat
+    var numitems: Int = 0
+    var countitems=0
     
     var labelContainer:[UILabel]
     
@@ -111,11 +113,17 @@ class FourthViewController: UIViewController {
         
         // here code to perform
         println("Test")
-        var thelabel : UILabel = timer.userInfo as UILabel
+        var newOrder:[UILabel]=timer.userInfo as [UILabel]
+        var thelabel:UILabel = newOrder[countitems]
          self.view.addSubview(thelabel)
          self.labelContainer.append(thelabel)
         
-    }
+        countitems++
+        if countitems == numitems
+        {
+            timer.invalidate()
+        }
+     }
 
     
     func reorderColors(){
@@ -128,6 +136,8 @@ class FourthViewController: UIViewController {
             newOrder.append(self.labelContainer.removeAtIndex(Int(arc4random_uniform(UInt32(self.labelContainer.count)))))
         }
         
+        numitems=newOrder.count
+        
         self.labelContainer.removeAll(keepCapacity: false)
         
         for view in self.view.subviews {
@@ -135,13 +145,9 @@ class FourthViewController: UIViewController {
         }
         
        var myTimer : NSTimer
+       myTimer  = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("myPerformeCode:"), userInfo: newOrder, repeats: true)
+  
         
-        for label in newOrder{
-            //self.view.addSubview(label)
-            //self.labelContainer.append(label)
-            myTimer  = NSTimer.scheduledTimerWithTimeInterval(4, target: self, selector: Selector("myPerformeCode:"), userInfo: label, repeats: true)
-            println("sleeping")
-        }
     }
     
     
