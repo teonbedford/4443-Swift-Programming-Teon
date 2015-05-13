@@ -89,6 +89,7 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
             longitudeLabel.text = String(format: "%.8f", location.coordinate.longitude)
             model.lat = location.coordinate.latitude
             model.lon = location.coordinate.longitude
+            println("Upgrading")
         }
     }
     

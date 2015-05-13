@@ -86,11 +86,11 @@
 				857CC4F11AC1FDF000AF61ED /* AppDelegate.swift */,
 				857CC4F31AC1FDF000AF61ED /* CurrentLocationViewController.swift */,
 				857CC4F51AC1FDF000AF61ED /* SecondViewController.swift */,
+				8544908E1AC494A400F85352 /* customTabBarController.swift */,
 				857CC4F71AC1FDF000AF61ED /* Main.storyboard */,
 				857CC4FA1AC1FDF000AF61ED /* Images.xcassets */,
 				857CC4FC1AC1FDF000AF61ED /* LaunchScreen.xib */,
 				857CC4EF1AC1FDF000AF61ED /* Supporting Files */,
-				8544908E1AC494A400F85352 /* customTabBarController.swift */,
 			);
 			path = MyLocations;
 			sourceTree = "<group>";
